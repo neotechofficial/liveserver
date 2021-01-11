@@ -1,0 +1,12 @@
+.editor,
+.output {
+	min-height: 75vh;
+	max-height: 75vh;
+	overflow: scroll;
+	resize: none;
+	outline: none;
+}
+.editor::-webkit-scrollbar,
+.output::-webkit-scrollbar {
+	display: none;
+}
